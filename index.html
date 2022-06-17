@@ -13,7 +13,7 @@
 
   <!-- BODY SECTION STARTS -->
   <body>
-    <h1 style="color:red;">Charlie Awsome Mash Game</h1>
+    <h1 style="color:red; border-style: solid; border-color: red;height: 56px; font-size: 50px;text-align: center;">Charlie Awsome Mash Game</h1>
     <p class="description">Fill in the blanks and your future will be foretold.</p>
     <form action="" method="post" id="mash">
       <div id="answers" class="hide">
@@ -21,25 +21,26 @@
       </div>
       <div class="bucket">
         <div class="choice-bucket">
-          <h4 style="color:skyblue;" class="highlight">How much money will you make?</h4>
-          <input type="text" name="answer_1[]">
-          <input type="text" name="answer_1[]">
-          <input type="text" name="answer_1[]">
-          <input type="text" name="answer_1[]">
+          <h4  class="highlight">Your future Wealth?</h4>
+          <label for='Wealth'>By Day?</label><input type="text" name="answer_1[]" id="Wealth">
+          <label for='Wealth2'>By Week?</label><input type="text" name="answer_1[]" id="Wealth2">
+          <label for='Wealth3'>By Month?</label><input type="text" name="answer_1[]" id="Wealth3">
+          <label for='Wealth4'>By Year?</label><input type="text" name="answer_1[]" id="Wealth4">
+     
         </div>
         <div class="choice-bucket">
-          <h4 style="color:skyblue;" class="highlight">Your future plans?</h4>
-          <input type="text" name="answer_2[]">
-          <input type="text" name="answer_2[]">
-          <input type="text" name="answer_2[]">
-          <input type="text" name="answer_2[]">
+          <h4  class="highlight">Your future plans?</h4>
+          <label for="Future">Travel Destinations?</label><input type="text" name="answer_2[]" id="Future">
+          <label for="Future2">Carear Goals?</label><input type="text" name="answer_2[]" id="Future2">
+          <label for="Future3">Number of Houses you want to own?</label><input type="text" name="answer_2[]" id="Future3">
+          <label for="Future4">How many kids or dogs do you want to have?</label><input type="text" name="answer_2[]" id="Future4">
         </div>
         <div class="choice-bucket">
-          <h4 style="color:skyblue;"  class="highlight">Your future car?</h4>
-          <input type="text" name="answer_3[]">
-          <input type="text" name="answer_3[]">
-          <input type="text" name="answer_3[]">
-          <input type="text" name="answer_3[]">
+          <h4   class="highlight">Your future car?</h4>
+          <label for="Supra">Brand?</label><input type="text" name="answer_3[]"id="Supra">
+          <label for="Supra2">Make?</label><input type="text" name="answer_3[]"id="Supra2">
+          <label for="Supra3">Year?</label><input type="text" name="answer_3[]"id="Supra3">
+          <label for="Supra4">Model?</label><input type="text" name="answer_3[]"id="Supra4">
         </div>
       </div>
       <button type="submit" class="button-submit">Tell my fortune</button>
